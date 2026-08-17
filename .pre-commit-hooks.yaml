@@ -178,6 +178,7 @@
     entry: mixed-line-ending
     language: python
     types: [text]
+    stages: [pre-commit, pre-push, manual]
 -   id: name-tests-test
     name: python tests naming
     description: verifies that test files are named correctly.
